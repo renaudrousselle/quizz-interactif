@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    background: #98afd6;
+    padding: 10px;
+    font-size: 3rem;
+}
+
+h1, h2 {
+    color : #fff;
+    text-shadow : 1px 1px 10px orange;
+}
+
+p {
+    font-weight: bold;
+}
+
+
+img {
+    width: 60px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+span {
+    font-style: italic;
+    opacity: 0.5;
+}
+
+
+.question {
+    background : #98afd6;
+    border : 2px solid orange;
+    padding : 10px;
+    margin : 10px 0;
+    color : #fff;
+    font-family : arial;
+    height: 250px;
+    transition: all 0.5s;
+}
+
+.green {
+    background: #5db934;
+    transition: all 0.5s;
+}
+
+.red {
+    background: #b93434;
+    transition: all 0.5s;
+}

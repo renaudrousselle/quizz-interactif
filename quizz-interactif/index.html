@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Questionnaire interactif en jQuery</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <h1>Quizz</h1>
+        <form>
+            <a href="#">
+                <button>Survoler pour vérifier votre réponse</button>
+            </a>
+            
+            <div class="question">
+                <div class="texte">
+                    <h2>Question 1</h2>
+                    <p>Les couleurs du drapeau français sont :</p>
+                    <input type="radio" id="r1" name="q1"/>Vert - blanc - rouge<br/>
+                    <input type="radio" id="r2" name="q1"/>Rouge - blanc - rouge<br/>
+                    <input type="radio" id="r3" name="q1"/>Bleu - blanc - rouge<br/>
+                    <br/>
+                    <span class="reponse" id="reponse1">Réponse : Les trois couleurs du drapeau français sont bleu blanc rouge. Le blanc signifiant la couleur du roi, et le bleu et rouge sont les couleurs de Paris.</span>
+                </div>  
+                <img src="img/question.png" />
+            </div>
+
+            <div class="question">
+                <div class="texte">
+                    <h2>Question 2</h2>
+                    <p>La capitale de la Belgique est :</p>
+                    <input type="radio" id="r4" name="q2"/>Bruxelles<br/>
+                    <input type="radio" id="r5" name="q2"/>Madrid<br/>
+                    <input type="radio" id="r6" name="q2"/>Berlin<br>
+                    <br>
+                    <span class="reponse" id="reponse2">Réponse : C'est Bruxelles. Madrid est la capitale de l'Espagne. Quant à Berlin, c'est la capitale de l'Allemagne.</span>
+                </div>
+                <img src="img/question.png" />
+            </div>
+
+            <div class="question">
+                <div class="texte">
+                    <h2>Question 3</h2>
+                    <p>Quelle était la couleur du cheval blanc d'Henri IV ?</p>
+                    <input type="radio" id="r7" name="q3"/>Brune<br/>
+                    <input type="radio" id="r8" name="q3"/>Grise et poivrée<br/>
+                    <input type="radio" id="r9" name="q3"/>Blanche<br/>
+                    <br/>
+                    <span class="reponse" id="reponse3">Réponse : Blanche, la réponse est dans la question.</span>
+                </div>  
+                <img src="img/question.png" />
+            </div>
+            
+            <a href="#">
+                <button>Survoler pour vérifier votre réponse</button>
+            </a>
+        </form>
+
+        <script src="jquery.js"></script>
+    </body>
+</html>
